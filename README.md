@@ -1,2 +1,4 @@
-# hf_ruby
-Head First  Learning Ruby code examples
+# Head First "Learning Ruby"
+
+## Head First  Learning Ruby code examples
+
