@@ -36,6 +36,6 @@ elsif guess == target
 end
 
 # if number of tries is 0, return guessed number
-if not guessed_it
+unless guessed_it
   puts "Sorry. You didn't get my number. (it was #{target}.)"
 end
