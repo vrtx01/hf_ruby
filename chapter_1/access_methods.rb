@@ -1,19 +1,19 @@
 class Dog
-  def name=(new_value)
+  def name=(new_value)      # same as attr_writer :name
     @name = new_value
   end
 
-  def name
+  def name                  # same as attr_reader :name
     @name
   end
 
-  def age=(new_value)
+  def age=(new_value)       # same as attr_accessor :age
     @age = new_value
   end
 
-  def age
-    @age
-  end
+  def age                   # attr_accessor :name, :age
+    @age                    # initializes 4 methods in one time!
+  end                       # :name, :age - symbols
 
   def report_age
     puts "#{@name} is #{@age} years old."
