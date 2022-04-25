@@ -25,6 +25,10 @@ class Cat
   end
 end
 
+bird = Bird.new
+dog = Dog.new
+cat = Cat.new
+
 bird.move("tree")
 dog.talk
 bird.talk
